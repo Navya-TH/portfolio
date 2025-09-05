@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NAVYA TH | Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin:0; padding:0; background:#f9f9f9; }
+    header { background: #2c3e50; color: #fff; padding: 1.5rem; text-align: center; }
+    header h1 { margin: 0; }
+    nav { margin-top: 1rem; }
+    nav a { margin: 0 1rem; color: #fff; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+
+    section { padding: 2rem; max-width: 900px; margin: auto; background: #fff; margin-top: 1rem; box-shadow: 0 0 8px rgba(0,0,0,0.1); }
+    h2 { border-bottom: 2px solid #2c3e50; padding-bottom: 0.5rem; color:#2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { padding: 0.5rem; text-align: left; border-bottom: 1px solid #ddd; }
+    ul { margin-top: 0.5rem; }
+    li { margin-bottom: 0.5rem; }
+    footer { text-align: center; padding: 1rem; background: #2c3e50; color:#fff; font-size: 0.9rem; margin-top: 1rem; }
+    .contact { margin-top: 0.5rem; }
+    .contact a { color:#3498db; text-decoration:none; }
+
+    /* Certificate Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      padding-top: 50px;
+      left: 0; top: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.8);
+    }
+    .modal-content {
+      margin: auto;
+      display: block;
+      max-width: 80%;
+      border-radius: 8px;
+    }
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 35px;
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .close:hover { color: red; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NAVYA TH</h1>
+    <p class="contact">
+      📞 +91 9900709541 | 📧 <a href="mailto:navyath.1si22et017@gmail.com">navyath.1si22et017@gmail.com</a> <br>
+      🔗 <a href="https://linkedin.com/in/navya-th-598280323" target="_blank">linkedin.com/in/navya-th-598280323</a>
+    </p>
+    <nav>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#internship">Internship</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#extracurriculars">Extracurriculars</a>
+      <a href="#responsibility">Responsibility</a>
+    </nav>
+  </header>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <table>
+      <tr><th>Institution</th><th>Course</th><th>Year</th><th>Score</th></tr>
+      <tr>
+        <td>Siddaganga Institute of Technology</td>
+        <td>B.E – Electronics and Telecommunication Engineering</td>
+        <td>Dec 2022 – Sep 2026</td>
+        <td>CGPA: 8.38</td>
+      </tr>
+      <tr>
+        <td>Sri Sapthagiri PU College</td>
+        <td>PUC – PCMB</td>
+        <td>Apr 2022</td>
+        <td>91.83%</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><b>Programming Languages:</b> C++, C</li>
+      <li><b>CS Fundamentals:</b> Data Structures and Algorithms, OOPS, OS, CN</li>
+      <li><b>Web Development:</b> HTML</li>
+      <li><b>Developer Tools:</b> VS Code, TinkerCad, MATLAB, XAMPP</li>
+      <li><b>Core Technologies:</b> Arduino UNO</li>
+      <li><b>Document Creation:</b> Microsoft Word, LaTeX, Google Docs</li>
+      <li><b>Other Skills:</b> Poster Design, Event Management, Teamwork</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <b>Intelligent Medicine Box</b> | Arduino, GSM, IR Sensor <br>
+        Feb 2025 – Academic Project, Tumkur, Karnataka <br>
+        • Developed a smart medicine reminder system with servo motor-controlled mechanism.<br>
+        • Integrated GSM alerts for missed doses.
+      </li>
+      <li>
+        <b>VogueCart E-commerce Platform</b> | CodeIgniter 3, HTML, CSS, SQL <br>
+        Mar 2025 – Internship Project (Online) <br>
+        • Built a complete e-commerce website with authentication, cart & payments.<br>
+        • Designed admin dashboard for inventory & analytics.
+      </li>
+      <li>
+        <b>Automated Firefighting Robot</b> | Arduino, GSM, Fire Sensor <br>
+        Nov 2024 – Academic Project, Tumkur <br>
+        • Fire detection & suppression with GSM alerts.<br>
+        • Used motor drivers for autonomous navigation.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Internship -->
+  <section id="internship">
+    <h2>Internship Programme</h2>
+    <p><b>Web Development Intern</b> – Rasti Technologies (Mar 2025)</p>
+    <p>• Built an e-commerce website (Vogue Cart) using CodeIgniter 3, HTML, CSS, SQL.<br>
+       • Implemented user authentication, product management & payment integration. <br>
+       📄 <a href="Internship_rasti technology.pdf" target="_blank">View Certificate</a>
+    </p>
+  </section>
+
+  <!-- Achievements -->
+<section id="achievements">
+  <h2>Achievements</h2>
+  <ul>
+    <li>
+      Top 6 finalist – HackEEE (PES University, Bangalore) – Nov 2024  
+      📄 <a href="#" class="certificate-link" data-cert="hackee.jpeg">View Certificate</a>
+    </li>
+    <li>1st Place – Hardware Debugging @ Technisium 2025, Tumkur</li>
+    <li>2nd Place – Techno Management @ Technisium 2025, Tumkur</li>
+  </ul>
+</section>
+
+  
+
+  <!-- Positions of Responsibility -->
+  <section id="responsibility">
+    <h2>Positions of Responsibility</h2>
+    <ul>
+      <li>Active Member (2022 – Present) – IEEE Photonics and Comsoc, SIT Tumkur</li>
+      <li>Active Member (2022 – Present) – Institution’s Innovation Council (IIC), SIT Tumkur</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 NAVYA TH | Portfolio
+  </footer>
+
+  <!-- Certificate Modal -->
+  <div id="certificateModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="certImage">
+  </div>
+
+  <script>
+    // Modal Script
+    const modal = document.getElementById("certificateModal");
+    const modalImg = document.getElementById("certImage");
+    const closeBtn = document.querySelector(".close");
+
+    document.querySelectorAll(".certificate-link").forEach(link => {
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        const certSrc = this.getAttribute("data-cert");
+
+        // If it's a PDF, open in new tab, else open in modal
+        if (certSrc.endsWith(".pdf")) {
+          window.open(certSrc, "_blank");
+        } else {
+          modal.style.display = "block";
+          modalImg.src = certSrc;
+        }
+      });
+    });
+
+    closeBtn.onclick = function() {
+      modal.style.display = "none";
+    };
+
+    window.onclick = function(event) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+</body>
+</html>
